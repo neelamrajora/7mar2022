@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>parent child relation</title>
+    </head>
+    <style>
+        #p{
+            width:250px;
+            height:1000px;
+            background-color:red;
+        }
+        #c1{
+            width:250px;
+            height:250px;
+            background-color:green;
+        }
+        #c2{
+            width:250px;
+            height:250px;
+            background:blue;
+        }
+        #p:hover #c1{
+            background-color:blueviolet;
+            border-radius:250px;
+
+        }
+        #p:hover #c2{
+            background-color:yellow;
+            border-radius:250px;
+
+        }
+        #cc1{
+            width:150px;
+            height:150px;
+            background-color:rgb(8, 34, 56);
+        }
+        #p:hover #cc1{
+            background-color:brown;
+            border-radius:150px;
+        }
+        #cc2{
+            width: 90px;
+            height:90px;
+            background-color:rgb(155, 30, 124);
+
+        }
+        #p:hover #cc2{
+            background-color:rgb(14, 190, 117);
+            border-radius:90px;
+
+        }
+        #c21{
+            width:150px;
+            height:150px;
+            background-color:rgb(31, 212, 14);
+        }
+        #p:hover #c21{
+            background-color:rgb(6, 1, 22);
+            border-radius:150px;
+        }
+        #c22{
+            width:90px;
+            height:90px;
+            background-color:rgb(231, 133, 21);
+        }
+        #p:hover #c22{
+            background-color:rgb(240, 8, 8);
+            border-radius:90px;
+        }
+        #c3{
+            width:250px;
+            height:250px;
+            background-color:rgb(76, 45, 150);
+        }
+        #p:hover #c3{
+            background-color:rgb(59, 20, 43);
+            border-radius:250px;
+        }
+        #c4{
+            width:250px;
+            height:250px;
+            background-color:rgb(151, 108, 128);
+        }
+        #p:hover #c4{
+            background-color:rgb(8, 132, 241);
+            border-radius:250px;
+        }
+        #c31{
+            width:150px;
+            height:150px;
+            background-color:rgb(124, 96, 60);
+        }
+        #p:hover #c31{
+            background-color:rgb(167, 231, 17);
+            border-radius:150px;
+        }
+        #c32{
+            width:90px;
+            height:90px;
+            background-color:navy;
+        }
+        #p:hover #c32{
+            background-color:rgb(12, 166, 238);
+            border-radius:90px;
+        }
+        #c41{
+            width: 150px;
+            height:150px;
+            background-color:rgb(240, 126, 19);
+        }
+        #p:hover #c41{
+            background-color:rgb(150, 53, 153);
+            border-radius:150px;
+        }
+        #c42{
+            width:90px;
+            height:90px;
+            background-color:rgba(104, 52, 9, 0.602);
+        }
+        #p:hover #c42{
+            background-color:rgb(1, 10, 19);
+            border-radius:90px;
+        }
+    </style>
+    <body>
+        <div id="p">
+            <div id="c1">
+                <div id="cc1">
+                    <div id="cc2"></div>
+                </div>
+            </div>
+            <div id="c2">
+                <div id="c21">
+                    <div id="c22"></div>
+                </div>
+            </div>
+            <div id="c3">
+                <div id="c31">
+                    <div id="c32"></div>
+                </div>
+            </div>
+            <div id="c4">
+                <div id="c41">
+                    <div id="c42"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
